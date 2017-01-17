@@ -69,3 +69,13 @@ html {
   z-index: 1;
   transition: .25s all;
 }
+
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 9999;
+}
+
+.polaroid:hover {
+  box-shadow: -2px 8px 18px rgba(0, 0, 0, 0.75);
+}
+
